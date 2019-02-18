@@ -23,8 +23,16 @@ players_score = 0;
 
 print(f'Welcome to John\'s quiz game, you will whiz this quiz')
 
-question1 = input('This Marvel super hero is blind and protects Hells Kitchen :')
-answer_check(question1, 'dare devil')
+
+# Question Restructure, insert into .txt file with answers in CVS format. make column a and b required, c and d optional
+# set a random function to pull a random question from the txt file, set it to go through a set number of questions up to 50
+# create true and false, multiple, and fill in the blank
+
+
+question1 = input('This Marvel super hero is blind and protects Hells Kitchen :\n \
+                   A) Dare Devil\n B) Iron Man\n C)Ghandi\n D)Wonder Woman\n Pick the letter')
+
+answer_check(question1, 'C')
 
 question2 = input('This Harlem hero is bullet proof and almost indestrucatble?')
 answer_check(question2, 'luke cage')
